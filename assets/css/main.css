@@ -10,3 +10,18 @@ body{
 span{
 	color:red;
 }
+.div-perfil{
+	border: 1px solid grey;
+	display: inline-block;
+	text-align: left;
+	width: 200px;
+	padding: 15px 15px 15px 15px;
+	font-weight: bold;
+}
+.span-input{
+	font-weight: normal;
+	color: black;
+}
+.ocultar{
+	display: none;
+}

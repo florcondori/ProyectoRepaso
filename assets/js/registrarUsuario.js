@@ -73,8 +73,8 @@ window.addEventListener('load', function(){
 						var usuario = new Usuario(id,nombre,apellido,correo,password);
 						arrayUsuario.push(usuario);
 						console.log(arrayUsuario);
-						sessionStorage.setItem("arrayObjeto",JSON.stringify(arrayUsuario));
-						console.log(sessionStorage.getItem("arrayObjeto"));
+						localStorage.setItem("arrayObjeto",JSON.stringify(arrayUsuario));
+						localStorage.setItem("nuevoUsuario",JSON.stringify(usuario));
 						window.location = "perfilUsuario.html";
 					}else{
 						this.nextElementSibling.nextElementSibling.innerText = "Tu contraseña debe contener entre 6 o 20 caracteres";
